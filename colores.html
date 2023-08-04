@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<title>Colores</title>
+		<div class="nav">
+			<input type="checkbox" id="nav-check">
+			<div class="nav-header">
+			  <div class="nav-title">
+				Funciones
+			  </div>
+			</div>
+			<div class="nav-btn">
+			  <label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+			  </label>
+			</div>
+			
+			<div class="nav-links">
+				<a href="pintar.html">Pintar</a>
+				<a href="colores.html">Colores</a>
+			</div>
+		  </div>
+	</head>
+	<body class="flex_container">
+		<div class="container_cuadrados">
+			<h2> Cambiar color, clic sobre el cuadro</h2>
+			<div class="container">
+				<div id="amarilloCaja" class="box"></div>
+				<div id="verdeCaja" class="box"></div>
+				<div id="rojoCaja" class="box"></div>
+				<div id="azulCaja" class="box"></div>				
+			</div>
+		</div>
+
+		<div class="container_cuadrados">
+			<h2>Teclas A, S, D (mayúscula/minúscula), para cambiar de color.</h2>
+			<div class="container">
+				<div id="cuadro" class="box"></div>
+			</div>
+			<p id="mensaje">Teclas A, D , S.</p>
+		</div>
+
+		<div class="container_cuadrados">
+			<h2>DIV presionando las letras Q , W , E (Mayúsculas/minúscula) cambia color</h2>
+			<div class="container">
+				<div id="cuadrado_div"></div>
+			</div>
+			<p id="mensaje_div">Presionar teclas a-A, s-S, d-D para crear un "DIV" de color</p>
+		</div>
+		<script src="./assets/js/colores.js"></script>
+	</body>
+</html>
